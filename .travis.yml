@@ -15,8 +15,8 @@ before_deploy:
 deploy:
    provider: script
    script:
-      docker tag projetos-myapp:latest "$DOCKER_USERNAME"/projetos-myapp:$TRAVIS_JOB_ID
-      docker push "$DOCKER_USERNAME"/projetos-myapp;
+      docker tag docker-compose-java_myapp:latest andoliver46/projetos-myapp:$TRAVIS_JOB_ID;
+      docker push andoliver46/projetos-myapp;
    on:
       branch: main
 notifications:
