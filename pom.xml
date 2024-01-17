@@ -8,7 +8,7 @@
   </parent>
   
   <groupId>br.com.erudio</groupId>
-  <artifactId>docker-from-zero-to-mastery</artifactId>
+  <artifactId>DockerApplication</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   

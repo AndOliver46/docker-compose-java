@@ -1,6 +1,5 @@
 FROM openjdk:latest
 LABEL authors="andoliver46"
-COPY /target/docker-from-zero-to-mastery-0.0.1-SNAPSHOT.jar /usr/src/myapp/docker-from-zero-to-mastery-0.0.1-SNAPSHOT.jar
-WORKDIR /usr/src/myapp
+ADD DockerApp/target/docker-from-zero-to-mastery-0.0.1-SNAPSHOT.jar /app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "docker-from-zero-to-mastery-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/app.jar"]
