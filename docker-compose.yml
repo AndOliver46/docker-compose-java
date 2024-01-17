@@ -1,0 +1,31 @@
+version: "3.04"
+
+services:
+  app-mysql:
+    image: mysql:5.7.22
+    command: mysqld --default_authentication_plugin=mysql_native_password
+    restart: always
+    environment:
+      TZ: America/Sao_Paulo
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+      MYSQL_DATABASE: testdb
+    ports:
+      - "3306:3306"
+    networks:
+      - master-network
+  myapp:
+    build: .
+    image: myapp:1.0
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://app-mysql:3306/testdb?autoReconnect=true&useSSL=false
+    ports:
+      - "8080:8080"
+    depends_on:
+      - app-mysql
+    networks:
+      - master-network
+networks:
+  master-network:
+    driver: bridge
