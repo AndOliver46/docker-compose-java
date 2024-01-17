@@ -15,7 +15,10 @@ services:
     networks:
       - master-network
   myapp:
-    image: andoliver46/projetos-myapp:latest
+    build: 
+      context: .
+      dockerfile: DockerApp/Dockerfile
+    working_dir: /DockerApp
     restart: always
     environment:
       TZ: America/Sao_Paulo
