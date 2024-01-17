@@ -16,7 +16,7 @@ deploy:
    provider: script
    script:
       docker tag docker-compose-java_myapp:latest andoliver46/projetos-myapp:$TRAVIS_JOB_ID;
-      docker push andoliver46/projetos-myapp;
+      docker push andoliver46/projetos-myapp:$TRAVIS_JOB_ID;
    on:
       branch: main
 notifications:
