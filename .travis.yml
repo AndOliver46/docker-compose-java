@@ -18,6 +18,6 @@ deploy:
       docker tag projetos-myapp:latest "$DOCKER_USERNAME"/projetos-myapp:$TRAVIS_JOB_ID
       docker push "$DOCKER_USERNAME"/projetos-myapp;
    on:
-      branch: master
+      branch: main
 notifications:
    email: false 
