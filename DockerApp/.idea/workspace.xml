@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f7a97a2-2b5b-4913-98bb-9666f96d3ffd" name="Changes" comment="adjusting DB connection string">
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/config/FileStorageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/converter/DozerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/model/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/vo/v1/BookVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/vo/v1/PersonVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/data/vo/v1/UploadFileResponseVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/FileStorageException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/InvalidJwtAuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/MyFileNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/exception/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/security/AccountCredentialsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/security/jwt/JwtConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/security/jwt/JwtTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/security/jwt/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/serialization/converter/YamlJackson2HttpMessageConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/services/BookServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/services/FileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/br/com/erudio/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V10__Insert_Data_In_User_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V11__Alter_Table_Person.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V12__Populate_Person_With_Many.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V1__Create_Table_Person.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V2__Populate_Table_Person.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V3__Create_Table_Books.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V4__Insert_Data_In_Books.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V5__Create_Table_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V6__Insert_Data_In_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V7__Create_Table_Users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V8__Insert_Data_In_Users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V9__Create_Table_User_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/br/com/erudio/converter/DozerConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/br/com/erudio/converter/mocks/MockPerson.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2b3htMVrfIQN6U460Ada0yQt4wa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.myapp: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.docker-from-zero-to-mastery [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor": "Run",
+    "Maven.docker-from-zero-to-mastery [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Startup.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ander/OneDrive/Documents/Projetos/DockerApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.myapp: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="myapp" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.myapp: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f7a97a2-2b5b-4913-98bb-9666f96d3ffd" name="Changes" comment="" />
+      <created>1705449886627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705449886627</updated>
+      <workItem from="1705449888374" duration="4887000" />
+      <workItem from="1705454799601" duration="20000" />
+      <workItem from="1705454859866" duration="1632000" />
+      <workItem from="1705496359906" duration="4141000" />
+      <workItem from="1705518098806" duration="627000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit - docker compose exercise">
+      <option name="closed" value="true" />
+      <created>1705453848218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705453848218</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit - docker compose file rearranged">
+      <option name="closed" value="true" />
+      <created>1705457390856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705457390856</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adjusting DB connection string">
+      <option name="closed" value="true" />
+      <created>1705499903429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705499903429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial commit - docker compose exercise" />
+    <MESSAGE value="initial commit - docker compose file rearranged" />
+    <MESSAGE value="adjusting DB connection string" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting DB connection string" />
+  </component>
+</project>
